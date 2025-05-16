@@ -34,7 +34,7 @@ public class LocaisEntity {
 
     @JsonProperty("DIAS_FUNCIONAMENTO")
     @Column(name = "DIAS_FUNCIONAMENTO")
-    private Integer diasFuncionamento;
+    private String diasFuncionamento;
 
     public LocaisEntity() {
     }
@@ -87,11 +87,11 @@ public class LocaisEntity {
         this.horaFechamento = horaFechamento;
     }
 
-    public Integer getDiasFuncionamento() {
+    public String getDiasFuncionamento() {
         return diasFuncionamento;
     }
 
-    public void setDiasFuncionamento(Integer diasFuncionamento) {
+    public void setDiasFuncionamento(String diasFuncionamento) {
         this.diasFuncionamento = diasFuncionamento;
     }
 }
