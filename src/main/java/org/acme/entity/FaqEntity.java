@@ -20,8 +20,8 @@ public class FaqEntity {
     @Column(name = "SUGESTAO")
     private String sugestao;
 
-    @JsonProperty("FAQ_NOME")
-    @Column(name = "FAQ_NOME")
+    @JsonProperty("NOME_FAQ")
+    @Column(name = "NOME_FAQ")
     private String faqNome;
 
     public FaqEntity() {
